@@ -15,7 +15,7 @@ else:
     os.mkdir("images/" + folderName)
 
 #csv çıktısı alma
-csv_file =  open("photoList.csv", 'w', encoding="utf-8",newline='')
+csv_file =  open(folderName + ".csv", 'w', encoding="utf-8",newline='')
 csv_writer = csv.writer(csv_file, delimiter=",")
 
 #Excel oku ve listeye çevir
